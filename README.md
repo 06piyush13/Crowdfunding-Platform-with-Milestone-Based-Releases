@@ -1,4 +1,6 @@
 # Crowdfunding Platform with Milestone-Based Releases
+## Contrat Details
+Contract ID: CCSVROMQR65HZQTUY7GO3WMZ3CQ3PK6A2RUH3YGDUGYMNDVIMYQPDC2O
 ![alt text](image.png)
 
 ## Project Title
@@ -161,5 +163,10 @@ We welcome contributions from the community! Please feel free to submit issues, 
 Contract ID: CCSVROMQR65HZQTUY7GO3WMZ3CQ3PK6A2RUH3YGDUGYMNDVIMYQPDC2O
 
 ---
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b8c4b510-b067-48b0-8210-e0a618ebcfa5" />
+
+
+
+
 
 **Built with ❤️ for a more transparent and trustworthy crowdfunding ecosystem**
