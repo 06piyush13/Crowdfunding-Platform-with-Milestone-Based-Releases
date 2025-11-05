@@ -1,0 +1,2280 @@
+   0.261591700s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint: stale: missing "C:\\Users\\piyush chandrakar\\Desktop\\CrowdfundingPlatformwithMilestone-BasedReleases\\target\\debug\\.fingerprint\\derivative-d34aec8784d274ea\\dep-lib-derivative"
+   0.281981700s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint: fingerprint error for hello-world v0.0.0 (C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\contracts\hello-world)/Check { test: false }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("hello_world", ["lib", "cdylib"], "C:\\Users\\piyush chandrakar\\Desktop\\CrowdfundingPlatformwithMilestone-BasedReleases\\contracts\\hello-world\\src\\lib.rs", Edition2021) }
+   0.282053400s  INFO prepare_target{force=false package_id=hello-world v0.0.0 (C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\contracts\hello-world) target="hello_world"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\hello-world-ff47f5ea0b6c2ee7\lib-hello_world`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.291774800s  INFO prepare_target{force=false package_id=soroban-sdk v23.1.0 target="soroban_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v23.1.0/Check { test: false }/TargetInner { doctest: false, ..: lib_target("soroban_sdk", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-23.1.0\\src\\lib.rs", Edition2021) }
+   0.291800000s  INFO prepare_target{force=false package_id=soroban-sdk v23.1.0 target="soroban_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-sdk-f53ae42626645de0\lib-soroban_sdk`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.292433900s  INFO prepare_target{force=false package_id=arbitrary v1.3.2 target="arbitrary"}: cargo::core::compiler::fingerprint: fingerprint error for arbitrary v1.3.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("arbitrary", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arbitrary-1.3.2\\src\\lib.rs", Edition2021) }
+   0.292451600s  INFO prepare_target{force=false package_id=arbitrary v1.3.2 target="arbitrary"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\arbitrary-1b545d6e1bf921ed\lib-arbitrary`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.298532900s  INFO prepare_target{force=false package_id=ed25519-dalek v2.2.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519-dalek v2.2.0/Check { test: false }/TargetInner { ..: lib_target("ed25519_dalek", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-dalek-2.2.0\\src\\lib.rs", Edition2021) }
+   0.298564700s  INFO prepare_target{force=false package_id=ed25519-dalek v2.2.0 target="ed25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ed25519-dalek-ff7932387806b06d\lib-ed25519_dalek`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.299001800s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for curve25519-dalek v4.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\curve25519-dalek-4.1.3\\src\\lib.rs", Edition2021) }
+   0.299027700s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\curve25519-dalek-d60eacc88c3a54f2\lib-curve25519_dalek`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.301071200s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   0.301091600s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\digest-1e89b0d1772ecfc9\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.301403700s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   0.301421900s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\block-buffer-27845b05e2380734\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.301766700s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.9/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.9\\src\\lib.rs", Edition2015) }
+   0.301783600s  INFO prepare_target{force=false package_id=generic-array v0.14.9 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\generic-array-109693805622225e\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.304887300s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.6\\src\\lib.rs", Edition2018) }
+   0.304925500s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\crypto-common-6c52bc4ffca6b9de\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.305508900s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint: fingerprint error for ed25519 v2.2.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ed25519", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ed25519-2.2.3\\src\\lib.rs", Edition2021) }
+   0.305527500s  INFO prepare_target{force=false package_id=ed25519 v2.2.3 target="ed25519"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ed25519-c7eb1c04622494d4\lib-ed25519`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.305860700s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint: fingerprint error for signature v2.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("signature", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\signature-2.2.0\\src\\lib.rs", Edition2021) }
+   0.305878300s  INFO prepare_target{force=false package_id=signature v2.2.0 target="signature"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\signature-055c1529a2dc9037\lib-signature`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.306576400s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.9/Check { test: false }/TargetInner { ..: lib_target("sha2", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.9\\src\\lib.rs", Edition2018) }
+   0.306594300s  INFO prepare_target{force=false package_id=sha2 v0.10.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\sha2-46ff0ef00f2cc4e4\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.308424300s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.308442700s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\serde-76499593aee4167b\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.310967300s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint: fingerprint error for serde_derive v1.0.228/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_derive", ["proc-macro"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_derive-1.0.228\\src\\lib.rs", Edition2021) }
+   0.311016000s  INFO prepare_target{force=false package_id=serde_derive v1.0.228 target="serde_derive"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\serde_derive-f78ffc2aa19852fb\lib-serde_derive`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.313255700s  INFO prepare_target{force=false package_id=soroban-env-host v23.0.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-host v23.0.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_host", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-host-23.0.1\\src\\lib.rs", Edition2021) }
+   0.313284200s  INFO prepare_target{force=false package_id=soroban-env-host v23.0.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-host-ea81ac184d055e36\lib-soroban_env_host`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.314289600s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0 target="ark_bls12_381"}: cargo::core::compiler::fingerprint: fingerprint error for ark-bls12-381 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_bls12_381", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-bls12-381-0.4.0\\src\\lib.rs", Edition2021) }
+   0.314311700s  INFO prepare_target{force=false package_id=ark-bls12-381 v0.4.0 target="ark_bls12_381"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ark-bls12-381-86db510536004813\lib-ark_bls12_381`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.314726300s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 target="ark_ec"}: cargo::core::compiler::fingerprint: fingerprint error for ark-ec v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ec", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-ec-0.4.2\\src\\lib.rs", Edition2021) }
+   0.314744700s  INFO prepare_target{force=false package_id=ark-ec v0.4.2 target="ark_ec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ark-ec-3a7492ad3094fa1f\lib-ark_ec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.315218300s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 target="ark_ff"}: cargo::core::compiler::fingerprint: fingerprint error for ark-ff v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_ff", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-ff-0.4.2\\src\\lib.rs", Edition2021) }
+   0.315237300s  INFO prepare_target{force=false package_id=ark-ff v0.4.2 target="ark_ff"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ark-ff-ff420f56ce165a30\lib-ark_ff`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.316964800s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 target="ark_serialize"}: cargo::core::compiler::fingerprint: fingerprint error for ark-serialize v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_serialize", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-serialize-0.4.2\\src\\lib.rs", Edition2021) }
+   0.316985200s  INFO prepare_target{force=false package_id=ark-serialize v0.4.2 target="ark_serialize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ark-serialize-e5911d3272e9b277\lib-ark_serialize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.319095400s  INFO prepare_target{force=false package_id=derivative v2.2.0 target="derivative"}: cargo::core::compiler::fingerprint: fingerprint error for derivative v2.2.0/Build/TargetInner { name_inferred: true, for_host: true, proc_macro: true, ..: lib_target("derivative", ["proc-macro"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\derivative-2.2.0\\src\\lib.rs", Edition2015) }
+   0.319124300s  INFO prepare_target{force=false package_id=derivative v2.2.0 target="derivative"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\derivative-d34aec8784d274ea\lib-derivative`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.320862500s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint: fingerprint error for ark-poly v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ark_poly", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ark-poly-0.4.2\\src\\lib.rs", Edition2021) }
+   0.320882400s  INFO prepare_target{force=false package_id=ark-poly v0.4.2 target="ark_poly"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ark-poly-bc9448045053756b\lib-ark_poly`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.322539600s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint: fingerprint error for ecdsa v0.16.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ecdsa", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ecdsa-0.16.9\\src\\lib.rs", Edition2021) }
+   0.322558300s  INFO prepare_target{force=false package_id=ecdsa v0.16.9 target="ecdsa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\ecdsa-dca154a7a618c9c2\lib-ecdsa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.322948700s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint: fingerprint error for der v0.7.10/Check { test: false }/TargetInner { ..: lib_target("der", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\der-0.7.10\\src\\lib.rs", Edition2021) }
+   0.322965900s  INFO prepare_target{force=false package_id=der v0.7.10 target="der"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\der-5f5d7306d93e87b6\lib-der`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.323253800s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint: fingerprint error for elliptic-curve v0.13.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("elliptic_curve", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\elliptic-curve-0.13.8\\src\\lib.rs", Edition2021) }
+   0.323271000s  INFO prepare_target{force=false package_id=elliptic-curve v0.13.8 target="elliptic_curve"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\elliptic-curve-07be4c9067b46e40\lib-elliptic_curve`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.323796200s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-bigint v0.5.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_bigint", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-bigint-0.5.5\\src\\lib.rs", Edition2021) }
+   0.323813200s  INFO prepare_target{force=false package_id=crypto-bigint v0.5.5 target="crypto_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\crypto-bigint-26c7064321c5586f\lib-crypto_bigint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.324479700s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint: fingerprint error for sec1 v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sec1", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sec1-0.7.3\\src\\lib.rs", Edition2021) }
+   0.324497100s  INFO prepare_target{force=false package_id=sec1 v0.7.3 target="sec1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\sec1-7559c79e82c9c849\lib-sec1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.324797300s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint: fingerprint error for rfc6979 v0.4.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rfc6979", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rfc6979-0.4.0\\src\\lib.rs", Edition2021) }
+   0.324814500s  INFO prepare_target{force=false package_id=rfc6979 v0.4.0 target="rfc6979"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\rfc6979-77d47d4340ca0658\lib-rfc6979`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.325093700s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint: fingerprint error for hmac v0.12.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hmac", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hmac-0.12.1\\src\\lib.rs", Edition2018) }
+   0.325110800s  INFO prepare_target{force=false package_id=hmac v0.12.1 target="hmac"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\hmac-d1ced18f19ae5f2b\lib-hmac`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.325562200s  INFO prepare_target{force=false package_id=k256 v0.13.4 target="k256"}: cargo::core::compiler::fingerprint: fingerprint error for k256 v0.13.4/Check { test: false }/TargetInner { ..: lib_target("k256", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\k256-0.13.4\\src\\lib.rs", Edition2021) }
+   0.325579000s  INFO prepare_target{force=false package_id=k256 v0.13.4 target="k256"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\k256-4dd9cf96d7d3e464\lib-k256`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.326424600s  INFO prepare_target{force=false package_id=p256 v0.13.2 target="p256"}: cargo::core::compiler::fingerprint: fingerprint error for p256 v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("p256", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\p256-0.13.2\\src\\lib.rs", Edition2021) }
+   0.326455500s  INFO prepare_target{force=false package_id=p256 v0.13.2 target="p256"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\p256-334d258ddd5b960a\lib-p256`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.327188200s  INFO prepare_target{force=false package_id=primeorder v0.13.6 target="primeorder"}: cargo::core::compiler::fingerprint: fingerprint error for primeorder v0.13.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("primeorder", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\primeorder-0.13.6\\src\\lib.rs", Edition2021) }
+   0.327216000s  INFO prepare_target{force=false package_id=primeorder v0.13.6 target="primeorder"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\primeorder-9310aa8e92c84432\lib-primeorder`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.327907400s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint error for sha3 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha3-0.10.8\\src\\lib.rs", Edition2018) }
+   0.327933400s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\sha3-626f4e10a76ef4bc\lib-sha3`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.329077700s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_common", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\src\\lib.rs", Edition2021) }
+   0.329097900s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-common-cecd26d1ac716313\lib-soroban_env_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.330247200s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\build.rs", Edition2021) }
+   0.330265600s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-common-f4e4c2a43f6546a5\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.330471600s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\build.rs", Edition2021) }
+   0.330487700s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-common-78958a4a081a77c7\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.330811900s  INFO prepare_target{force=false package_id=crate-git-revision v0.0.6 target="crate_git_revision"}: cargo::core::compiler::fingerprint: fingerprint error for crate-git-revision v0.0.6/Build/TargetInner { name_inferred: true, ..: lib_target("crate_git_revision", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crate-git-revision-0.0.6\\src\\lib.rs", Edition2021) }
+   0.330830000s  INFO prepare_target{force=false package_id=crate-git-revision v0.0.6 target="crate_git_revision"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\crate-git-revision-02be001681e2c6f5\lib-crate_git_revision`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.331149900s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.228/Build/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.228\\src\\lib.rs", Edition2021) }
+   0.331167800s  INFO prepare_target{force=false package_id=serde v1.0.228 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\serde-bbc0e63bef84ab46\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.332323200s  INFO prepare_target{force=false package_id=soroban-env-macros v23.0.1 target="soroban_env_macros"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-macros v23.0.1/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("soroban_env_macros", ["proc-macro"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-macros-23.0.1\\src\\lib.rs", Edition2021) }
+   0.332341400s  INFO prepare_target{force=false package_id=soroban-env-macros v23.0.1 target="soroban_env_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-macros-cb32dd64900b8c48\lib-soroban_env_macros`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.332779100s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/Build/TargetInner { ..: lib_target("stellar_xdr", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\src\\lib.rs", Edition2021) }
+   0.332796200s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-xdr-60117ce25b129d94\lib-stellar_xdr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.333666300s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint: fingerprint error for hex v0.4.3/Build/TargetInner { name_inferred: true, ..: lib_target("hex", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-0.4.3\\src\\lib.rs", Edition2018) }
+   0.333683400s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\hex-ce3a1943b557e42b\lib-hex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.333968100s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint: fingerprint error for serde_with v3.15.1/Build/TargetInner { ..: lib_target("serde_with", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_with-3.15.1\\src\\lib.rs", Edition2021) }
+   0.333985400s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\serde_with-9a3fce4f2352238c\lib-serde_with`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.334302800s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint: fingerprint error for schemars v0.8.22/Build/TargetInner { ..: lib_target("schemars", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\schemars-0.8.22\\src\\lib.rs", Edition2021) }
+   0.334319500s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\schemars-f855510324aaf9aa\lib-schemars`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.335601700s  INFO prepare_target{force=false package_id=serde_with_macros v3.15.1 target="serde_with_macros"}: cargo::core::compiler::fingerprint: fingerprint error for serde_with_macros v3.15.1/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("serde_with_macros", ["proc-macro"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_with_macros-3.15.1\\src\\lib.rs", Edition2021) }
+   0.335619800s  INFO prepare_target{force=false package_id=serde_with_macros v3.15.1 target="serde_with_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\serde_with_macros-7b7082eb4b2a6d61\lib-serde_with_macros`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.335922500s  INFO prepare_target{force=false package_id=darling v0.21.3 target="darling"}: cargo::core::compiler::fingerprint: fingerprint error for darling v0.21.3/Build/TargetInner { ..: lib_target("darling", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\darling-0.21.3\\src\\lib.rs", Edition2021) }
+   0.335939300s  INFO prepare_target{force=false package_id=darling v0.21.3 target="darling"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\darling-3310c8edbc736faf\lib-darling`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.336274900s  INFO prepare_target{force=false package_id=darling_core v0.21.3 target="darling_core"}: cargo::core::compiler::fingerprint: fingerprint error for darling_core v0.21.3/Build/TargetInner { ..: lib_target("darling_core", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\darling_core-0.21.3\\src\\lib.rs", Edition2021) }
+   0.336293500s  INFO prepare_target{force=false package_id=darling_core v0.21.3 target="darling_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\darling_core-06e4a7ba6ec80cfe\lib-darling_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   0.337077200s  INFO prepare_target{force=false package_id=darling_macro v0.21.3 target="darling_macro"}: cargo::core::compiler::fingerprint: fingerprint error for darling_macro v0.21.3/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("darling_macro", ["proc-macro"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\darling_macro-0.21.3\\src\\lib.rs", Edition2021) }
+   0.337095100s  INFO prepare_target{force=false package_id=darling_macro v0.21.3 target="darling_macro"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\darling_macro-052abbb94739708c\lib-darling_macro`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_libgit2_prerelease
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+  25: git_midx_writer_dump
+  26: git_filter_source_repo
+  27: git_midx_writer_dump
+  28: BaseThreadInitThunk
+  29: RtlUserThreadStart
+   0.339459100s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-strkey v0.0.13/Build/TargetInner { ..: lib_target("stellar_strkey", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-strkey-0.0.13\\src\\lib.rs", Edition2021) }
+   0.339480100s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-strkey-3a2eec8c3cfd3791\lib-stellar_strkey`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.340307800s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-strkey v0.0.13/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-strkey-0.0.13\\build.rs", Edition2021) }
+   0.340326400s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-strkey-ec2f9760824786d6\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.340517500s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-strkey v0.0.13/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-strkey-0.0.13\\build.rs", Edition2021) }
+   0.340533200s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-strkey-71be3436d44faeb7\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_libgit2_prerelease
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   0.341190100s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\build.rs", Edition2021) }
+   0.341208000s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-xdr-1ee7685777ee3571\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.341395600s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\build.rs", Edition2021) }
+   0.341410500s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-xdr-6fcfbbb370b9aa15\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_libgit2_prerelease
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   0.341865900s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-wasmi v0.31.1-soroban.20.0.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("soroban_wasmi", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-wasmi-0.31.1-soroban.20.0.1\\src\\lib.rs", Edition2021) }
+   0.341888400s  INFO prepare_target{force=false package_id=soroban-wasmi v0.31.1-soroban.20.0.1 target="soroban_wasmi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-wasmi-524a3450e1628da8\lib-soroban_wasmi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.345122100s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/Check { test: false }/TargetInner { ..: lib_target("stellar_xdr", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\src\\lib.rs", Edition2021) }
+   0.345153900s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="stellar_xdr"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-xdr-c6c2d19cab3c4565\lib-stellar_xdr`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.346013500s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint: fingerprint error for hex v0.4.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hex", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hex-0.4.3\\src\\lib.rs", Edition2018) }
+   0.346032500s  INFO prepare_target{force=false package_id=hex v0.4.3 target="hex"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\hex-915c4bcd4a6eca16\lib-hex`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.346349200s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint: fingerprint error for serde_with v3.15.1/Check { test: false }/TargetInner { ..: lib_target("serde_with", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_with-3.15.1\\src\\lib.rs", Edition2021) }
+   0.346366700s  INFO prepare_target{force=false package_id=serde_with v3.15.1 target="serde_with"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\serde_with-3634fcd9d7c676cf\lib-serde_with`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.346688400s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint: fingerprint error for schemars v0.8.22/Check { test: false }/TargetInner { ..: lib_target("schemars", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\schemars-0.8.22\\src\\lib.rs", Edition2021) }
+   0.346705500s  INFO prepare_target{force=false package_id=schemars v0.8.22 target="schemars"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\schemars-157c97ac820cbfa2\lib-schemars`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.347365400s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-strkey v0.0.13/Check { test: false }/TargetInner { ..: lib_target("stellar_strkey", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-strkey-0.0.13\\src\\lib.rs", Edition2021) }
+   0.347389900s  INFO prepare_target{force=false package_id=stellar-strkey v0.0.13 target="stellar_strkey"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-strkey-708a933fc8cb8f36\lib-stellar_strkey`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.348429200s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\build.rs", Edition2021) }
+   0.348447100s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-xdr-38ecc0b5c6285a21\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.348654100s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for stellar-xdr v23.0.0/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\stellar-xdr-23.0.0\\build.rs", Edition2021) }
+   0.348669900s  INFO prepare_target{force=false package_id=stellar-xdr v23.0.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\stellar-xdr-3fb41c7366ada25c\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_libgit2_prerelease
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   0.350748100s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v23.1.0 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-ledger-snapshot v23.1.0/Check { test: false }/TargetInner { ..: lib_target("soroban_ledger_snapshot", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-ledger-snapshot-23.1.0\\src\\lib.rs", Edition2021) }
+   0.350772100s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v23.1.0 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-ledger-snapshot-7263a9adfdd984f7\lib-soroban_ledger_snapshot`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.351589100s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+   0.351610200s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\thiserror-6ffdedce7921e162\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.353172400s  INFO prepare_target{force=false package_id=soroban-sdk v23.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v23.1.0/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-23.1.0\\build.rs", Edition2021) }
+   0.353194100s  INFO prepare_target{force=false package_id=soroban-sdk v23.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-sdk-c0a29eaa7f34025f\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.353402100s  INFO prepare_target{force=false package_id=soroban-sdk v23.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v23.1.0/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-23.1.0\\build.rs", Edition2021) }
+   0.353419500s  INFO prepare_target{force=false package_id=soroban-sdk v23.1.0 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-sdk-503d84d5e08e047c\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.353745800s  INFO prepare_target{force=false package_id=soroban-sdk-macros v23.1.0 target="soroban_sdk_macros"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk-macros v23.1.0/Build/TargetInner { doctest: false, for_host: true, proc_macro: true, ..: lib_target("soroban_sdk_macros", ["proc-macro"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-macros-23.1.0\\src\\lib.rs", Edition2021) }
+   0.353776800s  INFO prepare_target{force=false package_id=soroban-sdk-macros v23.1.0 target="soroban_sdk_macros"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-sdk-macros-fde71fc1e77de7ea\lib-soroban_sdk_macros`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_libgit2_prerelease
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   0.354309800s  INFO prepare_target{force=false package_id=darling v0.20.11 target="darling"}: cargo::core::compiler::fingerprint: fingerprint error for darling v0.20.11/Build/TargetInner { ..: lib_target("darling", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\darling-0.20.11\\src\\lib.rs", Edition2021) }
+   0.354327500s  INFO prepare_target{force=false package_id=darling v0.20.11 target="darling"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\darling-e7ec376e0dcf5490\lib-darling`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.354683500s  INFO prepare_target{force=false package_id=darling_core v0.20.11 target="darling_core"}: cargo::core::compiler::fingerprint: fingerprint error for darling_core v0.20.11/Build/TargetInner { ..: lib_target("darling_core", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\darling_core-0.20.11\\src\\lib.rs", Edition2021) }
+   0.354700000s  INFO prepare_target{force=false package_id=darling_core v0.20.11 target="darling_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\darling_core-c33ef291504e797d\lib-darling_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.355051200s  INFO prepare_target{force=false package_id=darling_macro v0.20.11 target="darling_macro"}: cargo::core::compiler::fingerprint: fingerprint error for darling_macro v0.20.11/Build/TargetInner { for_host: true, proc_macro: true, ..: lib_target("darling_macro", ["proc-macro"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\darling_macro-0.20.11\\src\\lib.rs", Edition2021) }
+   0.355077200s  INFO prepare_target{force=false package_id=darling_macro v0.20.11 target="darling_macro"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\darling_macro-f0721ebd536d1942\lib-darling_macro`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_libgit2_prerelease
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   0.355788900s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/Build/TargetInner { ..: lib_target("soroban_env_common", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\src\\lib.rs", Edition2021) }
+   0.355807100s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="soroban_env_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-common-4dcc5e25bc0d1d99\lib-soroban_env_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_libgit2_prerelease
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   0.356533700s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/RunCustomBuild/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\build.rs", Edition2021) }
+   0.356551500s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-common-9106bde45acbafac\run-build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.356754400s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-common v23.0.1/Build/TargetInner { ..: custom_build_target("build-script-build", "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-common-23.0.1\\build.rs", Edition2021) }
+   0.356781500s  INFO prepare_target{force=false package_id=soroban-env-common v23.0.1 target="build-script-build"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\.fingerprint\soroban-env-common-be1882ed0ff9619e\build-script-build-script-build`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_libgit2_prerelease
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   0.357255400s  INFO prepare_target{force=false package_id=soroban-spec v23.1.0 target="soroban_spec"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-spec v23.1.0/Build/TargetInner { ..: lib_target("soroban_spec", ["lib"], "C:\\Users\\piyush chandrakar\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-spec-23.1.0\\src\\lib.rs", Edition2021) }

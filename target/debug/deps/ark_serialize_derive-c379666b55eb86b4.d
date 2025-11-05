@@ -1,0 +1,7 @@
+C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\deps\ark_serialize_derive-c379666b55eb86b4.d: C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\lib.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\serialize.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\deserialize.rs
+
+C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\deps\ark_serialize_derive-c379666b55eb86b4.dll: C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\lib.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\serialize.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\deserialize.rs
+
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\lib.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\serialize.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\ark-serialize-derive-0.4.2\src\deserialize.rs:

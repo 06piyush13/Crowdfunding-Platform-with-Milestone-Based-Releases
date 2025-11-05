@@ -1,0 +1,12 @@
+C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\deps\serde-76499593aee4167b.d: C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\piyush\ chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\build\serde-eb917dd564a7a0e2\out/private.rs
+
+C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\deps\libserde-76499593aee4167b.rmeta: C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\piyush\ chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\build\serde-eb917dd564a7a0e2\out/private.rs
+
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\piyush\ chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\build\serde-eb917dd564a7a0e2\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\piyush chandrakar\\Desktop\\CrowdfundingPlatformwithMilestone-BasedReleases\\target\\debug\\build\\serde-eb917dd564a7a0e2\\out

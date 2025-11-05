@@ -1,0 +1,9 @@
+C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\deps\soroban_spec_rust-42f160e1820e8aef.d: C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\lib.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\trait.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\types.rs
+
+C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\deps\libsoroban_spec_rust-42f160e1820e8aef.rlib: C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\lib.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\trait.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\types.rs
+
+C:\Users\piyush chandrakar\Desktop\CrowdfundingPlatformwithMilestone-BasedReleases\target\debug\deps\libsoroban_spec_rust-42f160e1820e8aef.rmeta: C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\lib.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\trait.rs C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\types.rs
+
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\lib.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\trait.rs:
+C:\Users\piyush\ chandrakar\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\soroban-spec-rust-23.1.0\src\types.rs:

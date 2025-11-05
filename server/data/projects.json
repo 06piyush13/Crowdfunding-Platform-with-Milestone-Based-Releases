@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Build Community Garden",
+    "description": "A crowdfunded community garden with sustainable farming practices",
+    "creator": "GDWA4326FKITATXTJFFKIOI66ZHU4MF7JJWH6L63LLOP2VHOJ2POOBIC",
+    "targetAmount": 10000,
+    "raisedAmount": 3500,
+    "milestones": [
+      {
+        "id": 1,
+        "title": "Land Acquisition",
+        "description": "Purchase and prepare land for garden",
+        "targetAmount": 4000,
+        "releasedAmount": 0,
+        "isApproved": false,
+        "isCompleted": false,
+        "approvalCount": 2,
+        "requiredApprovals": 3
+      },
+      {
+        "id": 2,
+        "title": "Infrastructure Setup",
+        "description": "Build irrigation system and storage",
+        "targetAmount": 3000,
+        "releasedAmount": 0,
+        "isApproved": false,
+        "isCompleted": false,
+        "approvalCount": 0,
+        "requiredApprovals": 3
+      },
+      {
+        "id": 3,
+        "title": "Initial Planting",
+        "description": "Seeds, soil, and initial planting",
+        "targetAmount": 3000,
+        "releasedAmount": 0,
+        "isApproved": false,
+        "isCompleted": false,
+        "approvalCount": 0,
+        "requiredApprovals": 3
+      }
+    ],
+    "isActive": true,
+    "createdAt": "2025-11-01T10:00:
+    00.000Z"
+  }
+]
